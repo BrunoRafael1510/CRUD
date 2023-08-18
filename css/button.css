@@ -11,10 +11,10 @@
 }
 
 .button.blue {
-    background-color: #1fb;
+    background-color: rgb(238, 82, 82);
 }
 
-.button.green{
+.button.green {
     background-color: #13ce66;
 }
 
@@ -35,15 +35,14 @@ button:hover {
         height: 50px;
         border-radius: 50%;
         position: fixed;
-        top: 90vh ;
+        top: 90vh;
         left: 80vw;
-        
     }
-    .button.mobile::before{
+
+    .button.mobile::before {
         color: black;
         width: 100%;
         height: 100%;
         font-size: 2rem;
     }
 }
-
