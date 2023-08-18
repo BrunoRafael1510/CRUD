@@ -13,15 +13,16 @@
 
 <body>
     <header>
-        <h1 class="header-title">Cadastro de Cliente</h1>
+        <h1 class="header-title">Cadastro do Cliente</h1>
     </header>
     <main>
-        <button class="" type="button" id="cadastroCliente">Cadastrar Cliente</button>
-        <table id="tableClient" class="gravar">
+        <button type="button" class="button" class="button blue mobile" id="cadastrarCliente" class=''>Cadastrar
+            Cliente</button>
+        <table id="tableClient" class="">
             <thead>
                 <tr>
                     <th>Nome</th>
-                    <th>Email</th>
+                    <th>E-mail</th>
                     <th>Celular</th>
                     <th>Cidade</th>
                     <th>Ação</th>
@@ -30,31 +31,33 @@
             <tbody>
 
             </tbody>
-        </table>
-        <div class="modal" id="modal">
-            <div class="modal-content">
 
+        </table>
+        <div id="modal">
+            <div class="modal-content">
                 <header class="modal-header">
                     <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
                 </header>
-                <form action="" id="form" class="modal-form">
-                    <input type="text" id="nome" class="modal-field" placeholder="Nome Do Cliente" required>
-                    <input type="email" id="email" class="modal-field" placeholder="Digite o Email do Cliente" required>
-                    <input type="tel" id="celular" class="modal-field" placeholder="Digite o N° de Telefone do Cliente" required>
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" class="modal-field" placeholder="Nome do Cliente" required>
+                    <input type="email" id="email" class="modal-field" placeholder="Digite o E-mail do Cliente"
+                        required>
+                    <input type="tel" id="celular" class="modal-field" placeholder="Número do Cliente" required>
                     <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Cliente" required>
                 </form>
-                <footer class="modal-footer">
-                    <button id="salvar" class="button green">Salvar</button>
-                    <button id="cancelar" class="button blue">Cancelar</button>
+                <footer class="-footer">
+                    <button id="salvar" class="">Salvar</button>
+                    <button id="cancelar" class="">Cancelar</button>
                 </footer>
             </div>
         </div>
     </main>
     <footer>
-        Copyright &copy; Bruno Rafael Rocha
+        copyright &copy; @obruninn
     </footer>
 </body>
-<!-- Atributo Defer diz ao navegador para executar o script apenas quando a analise do html estiver finalizada -->
-<script src="js/codigo.js" defer></script>
+<!-- O atributo DEFER diz ao navegador para executar o srcipt apenas quando a analise do HTML estiver finalizada -->
+<script src="js/codigo.js"></script>
 
 </html>
